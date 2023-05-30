@@ -1,3 +1,4 @@
 {
-    "python.venvPath": "~/.cache/pypoetry/virtualenvs"
+    "python.venvPath": "~/.cache/pypoetry/virtualenvs",
+    "terminal.integrated.env.*": "~/.cache/pypoetry/virtualenvs"
 }
