@@ -23,7 +23,7 @@ class Common(Configuration):
         # "rest_framework.authtoken",  # token authentication
         "rest_framework_filters",  # for filtering rest endpoints
         # Your apps
-        # "nth.tasks",
+        "nth.que",
     )
 
     # https://docs.djangoproject.com/en/2.0/topics/http/middleware/
