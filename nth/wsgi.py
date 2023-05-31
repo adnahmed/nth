@@ -8,7 +8,7 @@ import os
 
 from configurations.wsgi import get_wsgi_application  # noqa
 
-os.environ.setdefault("DJANGO_CONFIGURATION", "Dev")
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'nth.settings')
+os.environ.setdefault("DJANGO_CONFIGURATION", "Local")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "nth.settings")
 
 application = get_wsgi_application()

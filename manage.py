@@ -5,8 +5,8 @@ import sys
 
 
 def main():
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "nth.settings")
-    os.environ.setdefault("DJANGO_CONFIGURATION", "Dev")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "nth.config")
+    os.environ.setdefault("DJANGO_CONFIGURATION", "Local")
 
     try:
         from configurations.management import execute_from_command_line
@@ -26,5 +26,5 @@ def main():
     execute_from_command_line(sys.argv)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
