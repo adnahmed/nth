@@ -7,5 +7,9 @@
         "pylint_django",
         "--django-settings-module",
         "nth.settings"
-    ]
+    ],
+    "terminal.integrated.env.linux": {
+        "DJANGO_CONFIGURATION": "Local",
+        "DJANGO_SETTINGS_MODULE": "nth.settings"
+    }
 }
