@@ -1,0 +1,11 @@
+{
+    // "python.linting.prospectorEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django",
+        "--django-settings-module",
+        "nth.settings"
+    ]
+}
