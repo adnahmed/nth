@@ -4,12 +4,20 @@
     "python.envFile": "${workspaceFolder}/.env",
     "python.linting.pylintArgs": [
         "--load-plugins",
-        "pylint_django",
+        "pylint_django,",
+        "pylint_pytest",
         "--django-settings-module",
         "nth.settings"
     ],
     "terminal.integrated.env.linux": {
         "DJANGO_CONFIGURATION": "Local",
         "DJANGO_SETTINGS_MODULE": "nth.settings"
-    }
+    },
+    "python.testing.pytestArgs": [
+        "-n",
+        "auto",
+        "nth"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": true
 }
